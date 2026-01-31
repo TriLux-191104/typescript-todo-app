@@ -1,4 +1,4 @@
-import { ITodo } from "./main";
+import { ITodo } from "./main.js";
 const STORAGE_KEY = "toDoList";
 
 const removeTodoFromLocalStorage = (id: number) => {
@@ -32,5 +32,7 @@ const deleteTodo = () => {
     });
   }
 };
+
+console.log("Hi");
 
 export { deleteTodo, removeTodoFromLocalStorage };

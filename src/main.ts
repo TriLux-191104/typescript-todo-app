@@ -1,6 +1,6 @@
-import { getRandomInt } from "./helper";
-import { displayTable } from "./table.todo";
-import { deleteTodo, removeTodoFromLocalStorage } from "./delete.todo";
+import { getRandomInt } from "./helper.js";
+import { displayTable } from "./table.todo.js";
+import { deleteTodo, removeTodoFromLocalStorage } from "./delete.todo.js";
 
 const STORAGE_KEY = "toDoList";
 

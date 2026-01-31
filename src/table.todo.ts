@@ -1,4 +1,4 @@
-import { ITodo } from "./main";
+import { ITodo } from "./main.js";
 
 const STORAGE_KEY = "toDoList";
 
