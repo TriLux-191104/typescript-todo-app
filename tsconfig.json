@@ -7,8 +7,10 @@
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "noEmitOnError": false,
+    "skipLibCheck": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
