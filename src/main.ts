@@ -1,6 +1,6 @@
-import { getRandomInt } from "./helper.js";
-import { displayTable } from "./table.todo.js";
-import { deleteTodo, removeTodoFromLocalStorage } from "./delete.todo.js";
+import { getRandomInt } from "./helper";
+import { displayTable } from "./table.todo";
+import { deleteTodo, removeTodoFromLocalStorage } from "./delete.todo";
 
 const STORAGE_KEY = "toDoList";
 
@@ -58,7 +58,7 @@ const handleSaveTodoToLocalStorage = (todo: ITodo) => {
 
 const handelAddNewWithJS = (todo: ITodo) => {
   const tableBody = document.querySelector("#tableTodo tbody");
-  const toDoListStr = localStorage.getItem("todoList");
+  const toDoListStr = localStorage.getItem("toDoList");
   let index = 0;
   if (toDoListStr) {
     index = JSON.parse(toDoListStr).length - 1;
